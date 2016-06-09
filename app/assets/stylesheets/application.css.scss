@@ -1,0 +1,254 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body{
+  margin:none;
+  padding:none;
+  overflow-x:hidden;
+}
+
+/**** NAVBAR ****/
+
+.navbar{
+  background:transparent;
+  height:185px; 
+  padding:none; 
+  border-color:transparent; 
+  border:none;
+}
+.navbar-brand{
+  width:200px!important;
+}
+.navlink{
+  margin:45px 2vw 0px 1vw;
+}
+.navlink-a{
+  letter-spacing: 2px;
+  font-size:25px!important;margin:none; outline:0; color:white!important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.navbar {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 9999!important;
+}
+.navbar.scrolled {
+  background: #4D4D4D!important;
+}
+.navbar-noscroll {
+  background: #4D4D4D!important;
+}
+.navbar-right{
+  margin-right: 60px;
+}
+.navbar-default .navbar-nav > li > a {
+  padding-bottom: 2px!important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/**** END OF NAVBAR ****/
+
+
+/**** INDEX ****/
+
+#index-navbar{
+  background: 
+  linear-gradient(
+    rgba(29, 49, 64, 0.7), 
+    rgba(29, 49, 64, 0.7)
+  );
+}
+.index-s {
+  height: 100vh;
+}
+#index-s1{
+  background: url(https://s3.amazonaws.com/royalclass/city-cars-road-traffic.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#index-s2{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(https://s3.amazonaws.com/royalclass/picjumbo.com_IMG_8868.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#index-s3{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(https://s3.amazonaws.com/royalclass/freeimage-15199481-high.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#index-s4{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(https://s3.amazonaws.com/royalclass/cars-road-traffic-dawn.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.index-text{
+  color: white;
+  padding-top: 35vh;
+  margin-left: 9vw;
+}
+.index-heading, .index-more{
+  letter-spacing: 2px;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.index-description{
+  letter-spacing: 1px;
+  font-size: 55px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.index-more{
+  font-weight: 300;
+  margin-top: 15px;
+}
+.index-logo{
+
+}
+/**** END OF INDEX ****/
+
+/**** CONTACT ****/
+
+.contact-s {
+  height: 100vh;
+}
+#contact-s1{
+  background: 
+  linear-gradient(
+    rgba(39, 39, 39, 0.9), 
+    rgba(39, 39, 39, 0.9)
+  ),
+  url(https://s3.amazonaws.com/royalclass/P_20160113_084447.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#contact-s3{
+  background: 
+  linear-gradient(
+    rgba(39, 39, 39, 0.9), 
+    rgba(39, 39, 39, 0.9)
+  ),
+  url(https://s3.amazonaws.com/royalclass/road-sky-clouds-cloudy-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.contact-s2{
+  height: 28vh;
+}
+#contact-s2-b{
+  background-color: #808080;
+}
+#contact-text{
+  color: white;
+  padding-top: 25vh;
+  margin-left: 9vw;
+}
+#contact-heading{
+  letter-spacing: 2px;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.contact-description{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+}
+#contact-description-a, #contact-description-b{
+  margin-top: 50px;
+}
+.contact-description-sub{
+  font-size: 35px;
+}
+.contact-description-sub-a{
+  margin-top: 6px;
+}
+.contact-description-sub-b{
+  margin-top: -8px;
+}
+#contact-description-c{
+  margin-top: 95px;
+}
+.contact-s2-text{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  margin-top: 11vh;
+}
+#contact-s2-a-text, #contact-s2-c-text{
+  color:black;
+}
+#contact-s2-a-text{
+  margin-left: 2.5vw;
+}
+#contact-s2-b-text{
+  color:white;
+  margin-left: 5vw;
+}
+#contact-s2-c-text{
+  margin-left: 10vw;
+}
+#contact-s3-text{
+  padding-top: 35vh;
+}
+#contact-s3-description{
+  letter-spacing: 1px;
+  font-size: 35px;
+  font-family: 'Lora', serif;
+  margin-top: 50px;
+  color: white;
+}

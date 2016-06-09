@@ -1,0 +1,32 @@
+<body>
+
+        <section>
+            <p>TEST</p>
+        </section>
+
+</body>
+
+<style>
+section {
+width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+section:after{
+    content: "";
+  background: url('https://s3.amazonaws.com/royalclass/city-cars-road-traffic.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;   
+}
+
+section p {
+    opacity: 1;}
+</style>
