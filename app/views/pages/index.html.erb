@@ -15,7 +15,9 @@
         Driven to be the most preferred provider<br>of quality petroleum products<br>and excellent services.
       </div>
       <div class="index-more">
-        >>>
+        <%= link_to(root_path, html_options = {class: 'index-more-link'}) do  %>
+          >>>
+        <% end %>
       </div>
     </div>
   </section>
@@ -29,7 +31,9 @@
         To exceed customer expectations<br>is our business.
       </div>
       <div class="index-more">
-        >>>
+        <%= link_to(root_path, html_options = {class: 'index-more-link'}) do  %>
+          >>>
+        <% end %>
       </div>
     </div>
   </section>
@@ -53,7 +57,9 @@
         Get in touch with us to know more about our<br>services and products.
       </div>
       <div class="index-more">
-        SAY HELLO&nbsp;&nbsp;>>>
+        <%= link_to(contact_path, html_options = {class: 'index-more-link'}) do  %>
+          SAY HELLO&nbsp;&nbsp;>>>
+        <% end %>
       </div>
     </div>
   </section>

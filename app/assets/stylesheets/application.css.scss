@@ -150,8 +150,9 @@ body{
   font-weight: 300;
   margin-top: 15px;
 }
-.index-logo{
-
+.index-more-link, .index-more-link:hover{
+  text-decoration:none;
+  color:white; 
 }
 /**** END OF INDEX ****/
 
@@ -250,5 +251,34 @@ body{
   font-size: 35px;
   font-family: 'Lora', serif;
   margin-top: 50px;
+  color: white;
+}
+
+/**** END OF CONTACT ****/
+
+/**** RCF ****/
+
+.rcf-s {
+  height: 100vh;
+}
+#rcf-s1{
+  background: 
+  linear-gradient(
+    rgba(64, 64, 64, 0.7), 
+    rgba(64, 64, 64, 0.7)
+  ),
+  url(https://s3.amazonaws.com/royalclass/people-show-chairs-gym-copy-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#rcf-s1-text{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  margin-top: 10vh;
+  margin-left: 7vw;
   color: white;
 }

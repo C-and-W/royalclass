@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'pages#index'
   get '/trial' => 'pages#trial'
   get '/contact' => 'pages#contact', as: :contact
+  get '/rcf' => 'pages#rcf', as: :rcf
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def contact
   end
 
+  def rcf
+  end
+  
   def trial
   end
 end
