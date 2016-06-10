@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <%= render 'pages/navbar' %>
+  </nav>
+</head>
+
+<body>
+  <section id="rcd-s1">
+    <%=image_tag "https://s3.amazonaws.com/royalclass/rcd-color-min.png", :style => "width: 300px; margin-top: 35vh; margin-left: 7vw;"%>
+    <div class="rc-s1-text">
+      Engaged in the construction business. It is mainly focused<br>on road construction projects.
+    </div>
+  </section>
+
+  <section class="rc-table-heading">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="rc-table-heading-text">PRODUCTS & SERVICES</div>
+      </div>
+      <div class="col-md-6">
+        <div class="rc-table-heading-text">DESCRIPTION</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rc-table-white-row">
+    <div class="row">
+      <div class="col-md-6">
+       <div class="rc-table-left-col">CONCRETE MIX</div>
+      </div>
+      <div class="col-md-6">
+        <div class="rc-table-right-col">
+          <span class="rc-table-right-col-description">Aggregates & Cement Mix</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rc-table-gray-row">
+    <div class="row">
+      <div class="col-md-6">
+       <div class="rc-table-left-col">RENTAL OF DUMP TRUCKS<br>& HEAVY EQUIPMENT</div>
+      </div>
+      <div class="col-md-6">
+        <div class="rc-table-right-col">
+          <span class="rc-table-right-col-description">Rental of dumptrucks, mixers, backhoes,<br>road rollers, loaders, etc.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rc-table-white-row">
+    <div class="row">
+      <div class="col-md-6">
+       <div class="rc-table-left-col">ROAD CONSTRUCTION</div>
+      </div>
+      <div class="col-md-6">
+        <div class="rc-table-right-col">
+          <span class="rc-table-right-col-description">Road Construction</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="rc-table-view-gallery">
+    <%= link_to(rcd_gallery_path, html_options = {class: 'view-gallery-link'}) do  %>
+      VIEW GALLERY
+    <% end %>
+  </section>
+
+  <section class="rc-table-footer">
+    <div class="rc-table-footer-text">
+      <span class="rc-table-footer-heading">FOR INQUIRIES:</span><br>
+      <span class="rc-table-footer-description">jpguillermo@gmail.com</span>
+    </div>
+  </section>
+
+</body>

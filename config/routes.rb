@@ -3,6 +3,15 @@ Rails.application.routes.draw do
   get '/trial' => 'pages#trial'
   get '/contact' => 'pages#contact', as: :contact
   get '/rcf' => 'pages#rcf', as: :rcf
+  get '/rct' => 'pages#rct', as: :rct
+  get '/rct/gallery' => 'pages#rct_gallery', as: :rct_gallery
+  get '/rcp' => 'pages#rcp', as: :rcp
+  get '/rcp/gallery' => 'pages#rcp_gallery', as: :rcp_gallery
+  get '/rcd' => 'pages#rcd', as: :rcd
+  get '/rcd/gallery' => 'pages#rcd_gallery', as: :rcd_gallery
+  get '/jpgv' => 'pages#jpgv', as: :jpgv
+  get '/jpgv/gallery' => 'pages#jpgv_gallery', as: :jpgv_gallery
+  get '/jpgv/sinotruk-cimc' => 'pages#jpgv_sinotruk', as: :jpgv_sinotruk
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

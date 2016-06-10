@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<body>
+  <section id="rct-gallery-s1" class="rct-gallery">
+    <div class="gallery-logo"><center>
+      <%= link_to(rct_path, html_options = {class: 'back-from-gallery-link'}) do  %> 
+        <%= image_tag "https://s3.amazonaws.com/royalclass/arrows_slide_left1-min.png" %>
+      <% end %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <%= image_tag "https://s3.amazonaws.com/royalclass/rct-color-min.png", :style => "width: 550px;"%>
+    </center></div>
+    <div class="gallery-images">
+      <div class="row">
+        <!--<% (1..9).each do |i| %>
+          <div class="col-md-4">
+            <div class="gallery-image-box" style="background: url(https://s3.amazonaws.com/royalclass/rct-gallery-<%= i %>-min.jpg); -ms-background-size: cover; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;"></div>
+          </div>
+        <% end %>-->
+        <% 9.times do %>
+          <div class="col-md-4">
+            <div class="gallery-image-box" style="background: url(https://s3.amazonaws.com/royalclass/P_20160113_084447-min.jpg); -ms-background-size: cover; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover;"></div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
+
+</body>

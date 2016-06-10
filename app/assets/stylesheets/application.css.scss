@@ -50,10 +50,10 @@ body{
   z-index: 9999!important;
 }
 .navbar.scrolled {
-  background: #4D4D4D!important;
+  background: #4C4C4C!important;
 }
 .navbar-noscroll {
-  background: #4D4D4D!important;
+  background: #4C4C4C!important;
 }
 .navbar-right{
   margin-right: 60px;
@@ -82,7 +82,7 @@ body{
   height: 100vh;
 }
 #index-s1{
-  background: url(https://s3.amazonaws.com/royalclass/city-cars-road-traffic.jpg);
+  background: url(https://s3.amazonaws.com/royalclass/city-cars-road-traffic-min.jpg);
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -95,7 +95,7 @@ body{
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
   ),
-  url(https://s3.amazonaws.com/royalclass/picjumbo.com_IMG_8868.jpg);
+  url(https://s3.amazonaws.com/royalclass/picjumbo.com_IMG_8868-min.jpg);
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -108,7 +108,7 @@ body{
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
   ),
-  url(https://s3.amazonaws.com/royalclass/freeimage-15199481-high.jpg);
+  url(https://s3.amazonaws.com/royalclass/freeimage-15199481-high-min.jpg);
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -121,7 +121,7 @@ body{
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
   ),
-  url(https://s3.amazonaws.com/royalclass/cars-road-traffic-dawn.jpg);
+  url(https://s3.amazonaws.com/royalclass/cars-road-traffic-dawn-min.jpg);
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -150,7 +150,7 @@ body{
   font-weight: 300;
   margin-top: 15px;
 }
-.index-more-link, .index-more-link:hover{
+.index-more-link, .index-more-link:hover, .index-more-link:visited{
   text-decoration:none;
   color:white; 
 }
@@ -167,7 +167,7 @@ body{
     rgba(39, 39, 39, 0.9), 
     rgba(39, 39, 39, 0.9)
   ),
-  url(https://s3.amazonaws.com/royalclass/P_20160113_084447.jpg);
+  url(https://s3.amazonaws.com/royalclass/P_20160113_084447-min.jpg);
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -258,10 +258,8 @@ body{
 
 /**** RCF ****/
 
-.rcf-s {
-  height: 100vh;
-}
 #rcf-s1{
+  height: 100vh;
   background: 
   linear-gradient(
     rgba(64, 64, 64, 0.7), 
@@ -274,11 +272,245 @@ body{
   -webkit-background-size: cover;
   background-size: cover;
 }
-#rcf-s1-text{
+
+/**** END OF RCF ****/
+
+/**** RC TABLES ****/
+
+.rc-s1-text{
   letter-spacing: 1px;
   font-size: 40px;
   font-family: 'Lora', serif;
   margin-top: 10vh;
   margin-left: 7vw;
   color: white;
+}
+.rc-table-heading{
+  height: 15vh;
+  background-color: white;
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #B52329;
+  text-align: center;
+}
+.rc-table-heading-text{
+  padding-top:10vh;
+}
+.rc-table-white-row{
+  background-color: white;
+  color:black;
+  padding-bottom: 3vh;
+}
+.rc-table-gray-row{
+  background-color: #808080;
+  color:white;
+  padding-bottom: 3vh;
+}
+.rc-table-left-col{
+  letter-spacing: -1px;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-left: 5vw;
+  padding-top: 4vh;
+}
+.rc-table-left-col-sub{
+  font-weight: 400;
+}
+.rc-table-right-col{
+  font-family: 'Lora', serif;
+  margin-left: 5vw;
+  padding-top: 4vh;
+}
+.rc-table-right-col-heading{
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+.rc-table-right-col-description{
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.rc-table-view-gallery{
+  height: 25vh;
+  background-color: white;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #B52329;
+  margin-left: 5vw;
+  padding-top: 2vh;
+}
+.view-gallery-link, .view-gallery-link:hover, .view-gallery-link:visited{
+  text-decoration:none;
+  color:#B52329; 
+}
+.rc-table-footer{
+  height: 21vh;
+  background-color: #4C4C4C;
+}
+.rc-table-footer-text{
+  padding-top: 5vh;
+  text-align: center;
+}
+.rc-table-footer-heading{
+  font-size: 37px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #B52329;
+}
+.rc-table-footer-description{
+  font-size: 40px;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Lora', serif;
+}
+
+/**** END OF RC TABLES ****/
+
+/**** GALLERIES ****/
+
+.rc-gallery{
+  min-height: 100vh;
+}
+.gallery-logo{
+  margin-top: 17vh;
+}
+.back-from-gallery-link, .back-from-gallery-link:hover, .back-from-gallery-link:visited{
+  outline:none;
+  text-decoration: none;
+}
+.gallery-images{
+  margin-top: 6vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 3vw;
+}
+.gallery-image-box{
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-top: 2.5vw;
+  height: 400px;
+}
+
+/**** END OF GALLERIES ****/
+
+/**** RCT ****/
+
+#rct-s1{
+  height: 120vh;
+  background: 
+  linear-gradient(
+    rgba(64, 64, 64, 0.7), 
+    rgba(64, 64, 64, 0.7)
+  ),
+  url(https://s3.amazonaws.com/royalclass/P_20160113_084429-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+/**** END OF RCT ****/
+
+/**** RCP ****/
+
+#rcp-s1{
+  height: 120vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.8), 
+    rgba(57, 57, 57, 0.8)
+  ),
+  url(https://s3.amazonaws.com/royalclass/pumpjpg-a2d01aa1a85c2486-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/**** END OF RCP ****/
+
+/**** RCD ****/
+
+#rcd-s1{
+  height: 120vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.8), 
+    rgba(57, 57, 57, 0.8)
+  ),
+  url(https://s3.amazonaws.com/royalclass/architecture-bridge-bahia-copy-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/**** END OF RCD ****/
+
+/**** JPGV ****/
+
+#jpgv-s1-left {
+  width: 50vw;
+  position: absolute;
+  left: 0px;
+  height: 120vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.9), 
+    rgba(57, 57, 57, 0.9)
+  ),
+  url(https://s3.amazonaws.com/royalclass/Air-Ride-Equipped1-min.jpg);
+  -ms-background-size: 280%;
+  -o-background-size: 280%;
+  -moz-background-size: 280%;
+  -webkit-background-size: 280%;
+  background-size: 280%;
+  background-position: 30% bottom;
+}
+#jpgv-s1-right {
+  width: 50vw;
+  position: absolute;
+  right: 0px;
+  height: 120vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.9), 
+    rgba(57, 57, 57, 0.9)
+  ),
+  url(https://s3.amazonaws.com/royalclass/gas-station-1173819-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position:center center;
+}
+#jpgv-s1-text{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  margin-top: 55vh;
+  margin-left: 7vw;
+  color: white;
+  position: absolute;
+}
+#jpgv-s1{
+  height: 120vh;
+}
+#view-sinotruk-link, #view-sinotruk-link:hover, #view-sinotruk-link:visited{
+  text-decoration:none;
+  color:#1C75BC; 
 }
