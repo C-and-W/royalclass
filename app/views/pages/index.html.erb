@@ -15,7 +15,7 @@
         Driven to be the most preferred provider<br>of quality petroleum products<br>and excellent services.
       </div>
       <div class="index-more">
-        <%= link_to(root_path, html_options = {class: 'index-more-link'}) do  %>
+        <%= link_to(company_path, html_options = {class: 'index-more-link'}) do  %>
           >>>
         <% end %>
       </div>
@@ -31,7 +31,7 @@
         To exceed customer expectations<br>is our business.
       </div>
       <div class="index-more">
-        <%= link_to(root_path, html_options = {class: 'index-more-link'}) do  %>
+        <%= link_to('/company/#company-s3', html_options = {class: 'index-more-link'}) do  %>
           >>>
         <% end %>
       </div>
@@ -40,11 +40,31 @@
 
   <section id="index-s3" class="index-s">
     <div class="index-logos">
-      <center><%=image_tag "https://s3.amazonaws.com/royalclass/rcp-fc-min.png", :style => "width: 400px; margin-top: 40px;"%></center>
-      <center><%=image_tag "https://s3.amazonaws.com/royalclass/rct-color-min.png", :style => "width: 600px; margin-top: 90px;"%></center>
-      <center><%=image_tag "https://s3.amazonaws.com/royalclass/rcd-color-min.png", :style => "width: 400px; margin-top: 90px;"%></center>
-      <center><%=image_tag "https://s3.amazonaws.com/royalclass/jpgv-color-min.png", :style => "width: 700px; margin-top: 90px;"%></center>
-      <center><%=image_tag "https://s3.amazonaws.com/royalclass/rcf-color-min.png", :style => "width: 400px; margin-top: 90px;"%></center>
+      <center>
+        <%= link_to(rcp_path, html_options = {class: 'view-subsidiary-link'}) do  %>
+          <%=image_tag "https://s3.amazonaws.com/royalclass/rcp-fc-min.png", :style => "width: 400px; margin-top: 40px;"%>
+        <% end %>
+      </center>
+      <center>
+        <%= link_to(rct_path, html_options = {class: 'view-subsidiary-link'}) do  %>
+          <%=image_tag "https://s3.amazonaws.com/royalclass/rct-color-min.png", :style => "width: 600px; margin-top: 90px;"%>
+        <% end %>
+      </center>
+      <center>
+        <%= link_to(rcd_path, html_options = {class: 'view-subsidiary-link'}) do  %>
+          <%=image_tag "https://s3.amazonaws.com/royalclass/rcd-color-min.png", :style => "width: 400px; margin-top: 90px;"%>
+        <% end %>
+      </center>
+      <center>
+        <%= link_to(jpgv_path, html_options = {class: 'view-subsidiary-link'}) do  %>
+          <%=image_tag "https://s3.amazonaws.com/royalclass/jpgv-color-min.png", :style => "width: 700px; margin-top: 90px;"%>
+        <% end %>
+      </center>
+      <center>
+        <%= link_to(rcf_path, html_options = {class: 'view-subsidiary-link'}) do  %>
+          <%=image_tag "https://s3.amazonaws.com/royalclass/rcf-color-min.png", :style => "width: 400px; margin-top: 90px;"%>
+        <% end %>
+      </center>
     </div>
   </section>
 

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'pages#index'
   get '/trial' => 'pages#trial'
+  get '/company' => 'pages#company', as: :company
   get '/contact' => 'pages#contact', as: :contact
   get '/rcf' => 'pages#rcf', as: :rcf
   get '/rct' => 'pages#rct', as: :rct

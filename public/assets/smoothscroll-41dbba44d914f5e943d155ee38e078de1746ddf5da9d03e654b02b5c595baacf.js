@@ -1,0 +1,1 @@
+$(document).ready(function(){$(function(){$('a[href*="#"]:not([href="#"])').click(function(){var t=$(this.hash);return t=t.length?t:$("[name="+this.hash.slice(1)+"]"),t.length?($("html, body").animate({scrollTop:t.offset().top},700),!1):void 0})})});

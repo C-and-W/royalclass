@@ -115,6 +115,10 @@ body{
   -webkit-background-size: cover;
   background-size: cover;
 }
+.view-subsidiary-link, .view-subsidiary-link:hover, .view-subsidiary-link:visited{
+  outline:none;
+  text-decoration: none;
+}
 #index-s4{
   background: 
   linear-gradient(
@@ -155,6 +159,164 @@ body{
   color:white; 
 }
 /**** END OF INDEX ****/
+
+/**** COMPANY ****/
+
+#company-s1{
+  height: 120vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.8), 
+    rgba(57, 57, 57, 0.8)
+  ),
+  url(https://s3.amazonaws.com/royalclass/people-feet-train-travelling-min.jpeg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#company-s1-text{
+  padding-top: 35vh;
+  margin-left: 9vw;
+  color: white;
+}
+#company-s1-heading-a{
+  letter-spacing: 2px;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#company-s1-heading-b{
+  letter-spacing: 4px;
+  font-size: 67px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 0.5vh;
+  border-bottom: 5px solid #B62128;
+  display: inline-block;
+  padding-bottom: 15px;
+  padding-right: 47px;
+}
+#company-s1-description{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  margin-top: 4.5vh;
+  color: white;
+}
+#company-s2{
+  background-color: #333333;
+  padding: 20vh 0vw;
+}
+#company-s2-text{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  color:white;
+}
+#company-s4{
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.8), 
+    rgba(57, 57, 57, 0.8)
+  ),
+  url(https://s3.amazonaws.com/royalclass/city-cars-traffic-lights-min.jpeg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.company-text{
+  padding-top: 35vh;
+  margin-left: 9vw;
+}
+.company-heading{
+  letter-spacing: 2px;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.company-description{
+  letter-spacing: 1px;
+  font-size: 52px;
+  font-family: 'Lora', serif;
+  margin-top: 5vh;
+  color: white;
+}
+.company-s5-dark{
+  background-color: #333333;
+  padding-left: 9vw;
+}
+.company-s5-light{
+  background-color: #808080;
+  padding-left: 9vw;
+}
+#company-s5-a{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#company-s5-b{
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+.company-s5-c{
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+}
+#company-s5-b .company-description, .company-s5-c .company-description{
+  margin-top: 0;
+}
+#company-s6{
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(57, 57, 57, 0.8), 
+    rgba(57, 57, 57, 0.8)
+  ),
+  url(https://s3.amazonaws.com/royalclass/pexels-photo-30267-min.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% center;
+}
+#company-s7{
+  background-color: #333333;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 40vh;
+  letter-spacing: 15px;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #861924;
+}
+.company-s7-initial{
+  color: #B52329;
+  font-size: 95px;
+}
+.company-s7-initial-dark{
+  font-size: 95px;
+}
+.company-s7-description{
+  letter-spacing: 5.5px;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+#company-s7-description-initial{
+  font-size: 45px;
+}
+
+
+/**** END COMPANY ****/
 
 /**** CONTACT ****/
 
@@ -266,11 +428,12 @@ body{
     rgba(64, 64, 64, 0.7)
   ),
   url(https://s3.amazonaws.com/royalclass/people-show-chairs-gym-copy-min.jpg);
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -ms-background-size: 125%;
+  -o-background-size: 125%;
+  -moz-background-size: 125%;
+  -webkit-background-size: 125%;
+  background-size: 125%;
+  background-position: right top;
 }
 
 /**** END OF RCF ****/
