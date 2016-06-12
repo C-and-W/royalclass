@@ -18,8 +18,11 @@
       <li class="navlink dropdown">
         <button class="navlink-a dropdown-toggle" type="button" id="dropdown-option-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">COMPANY</button>
         <ul class="dropdown-menu" aria-labelledby="dropdown-option-1" id="dropdown-menu-1">
-          <li><%= link_to 'VISION', '/company/#vision', 'data-no-turbolink' => true %></li>
-          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true %></li>
+          <li><%= link_to 'OUR<br>COMPANY'.html_safe, company_path, 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'BACKGROUND', '/company/#background', 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'HISTORICAL<br>TIMELINE'.html_safe, '/company/#timeline', 'data-no-turbolink' => true %></li>
         </ul>
       </li>
       <li class="navlink dropdown">
@@ -27,7 +30,7 @@
         <ul class="dropdown-menu" aria-labelledby="dropdown-option-2" id="dropdown-menu-2">
           <li><%= link_to 'VISION', '/company/#vision', 'data-no-turbolink' => true %></li>
           <li role="separator" class="divider"></li>
-          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true %></li>
+          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true, onclick:"document.getElementById('mission').style.display='block'" %></li>
           <li role="separator" class="divider"></li>
           <li><%= link_to 'CULTURE OF SERVICE<br>EXCELLENCE'.html_safe, '/company/#customers', 'data-no-turbolink' => true %></li>
         </ul>
@@ -49,9 +52,11 @@
       <li class="navlink dropdown">
         <button class="navlink-a dropdown-toggle" type="button" id="dropdown-option-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CONTACT</button>
         <ul class="dropdown-menu" aria-labelledby="dropdown-option-4" id="dropdown-menu-4">
-          <li><%= link_to 'VISION', '/company/#vision', 'data-no-turbolink' => true %></li>
-          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true %></li>
-          <li><%= link_to 'CULTURE OF SERVICE EXCELLENCE', '/company/#customers', 'data-no-turbolink' => true %></li>
+          <li><%= link_to 'COMPANY<br>NUMBERS'.html_safe, contact_path, 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'COMPANY<br>EMAILS'.html_safe, '/contact/#emails', 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'COMPANY<br>ADDRESS'.html_safe, '/contact/#address', 'data-no-turbolink' => true %></li>
         </ul>
       </li>
     </ul>

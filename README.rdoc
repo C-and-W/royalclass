@@ -31,39 +31,8 @@ Please feel free to use a different markup language if you do not plan to run
 **min-height
 **footer
 
-- COMPANY
-
-Our Company - leads to Our Company
-
-Background - leads to background
-
-Historical Timeline - leads to timeline
-
-- Hover animation on short description revealing longer and more-
+Historical Timeline - leads to timeline - Hover animation on short description revealing longer and more-
 detailed description (refer to Company Profile File.docx)
 
-- VISION-MISSION
 
-- SUBSIDIARIES
-
-- Detailed descriptions will be provided as well
-
-Vision - leads to Vision
-
-Mission - leads to Mission
-
-Culture Of Service Excellence - leads to “CUSTOMERS”
-
-- Hover animation revealing short description (refer to PDF)
-
-- Short descriptions will be provided as well
-
-*List all subsidiaries
-
-- CONTACT
-
-Company Numbers
-
-Company Emails
-
-Company Address
+Culture Of Service Excellence - leads to “CUSTOMERS” - Hover animation revealing short description (refer to PDF)

@@ -84,22 +84,27 @@ body{
   color: black;
 }
 .dropdown-menu{
-  margin-right: 7px;
+  margin-right: 4px;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
   padding: 10px 15px;
   background-color: #B62128;
 }
 #dropdown-menu-1{
-  width: 10px;
+  max-width: 130px;
+  min-width: 130px;
 }
 #dropdown-menu-2{
-  width: 205px;
+  width: 208px;
 }
 #dropdown-menu-3{
-  width: 175px;
+  width: 178px;
+}
+#dropdown-menu-4{
+  max-width: 120px;
+  min-width: 120px;
 }
 /**** END OF NAVBAR ****/
 
@@ -292,7 +297,7 @@ body{
   padding-left: 9vw;
 }
 #company-s5-a{
-  padding-top: 10vh;
+  padding-top: calc(185px);
   padding-bottom: 10vh;
 }
 #company-s5-b{
@@ -486,7 +491,7 @@ body{
 .rc-table-heading{
   background-color: white;
   letter-spacing: 3px;
-  font-size: 35px;
+  font-size: 45px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   color: #B52329;
@@ -537,7 +542,7 @@ body{
   height: 25vh;
   background-color: white;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   color: #B52329;
@@ -557,7 +562,7 @@ body{
   text-align: center;
 }
 .rc-table-footer-heading{
-  font-size: 37px;
+  font-size: 42px;
   letter-spacing: 1px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
