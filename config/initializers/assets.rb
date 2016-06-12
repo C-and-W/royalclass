@@ -12,3 +12,4 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( scroll.js )
 Rails.application.config.assets.precompile += %w( navbar.js )
+Rails.application.config.assets.precompile += %w( customers.js )

@@ -3,3 +3,4 @@ $('ul.nav li.dropdown').hover(function() {
 }, function() {
   $(this).find('.dropdown-menu').stop(true, true).fadeOut(300);
 });
+
