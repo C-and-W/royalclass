@@ -30,6 +30,8 @@ Please feel free to use a different markup language if you do not plan to run
 
 **min-height
 **footer
+**favicon
+**SEO
 
 Historical Timeline - leads to timeline - Hover animation on short description revealing longer and more-
 detailed description (refer to Company Profile File.docx)
