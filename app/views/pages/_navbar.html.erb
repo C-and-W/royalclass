@@ -23,11 +23,8 @@
         <%= link_to 'SUBSIDIARIES', '/#subsidiaries',:class=>"navlink-a", 'data-no-turbolink' => true %>
       </li>
       <li class="navlink">
-        <% if current_page?(root_path) %>
-          <%= link_to 'CONTACT', '/#index-s4',:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% else %>
-          <%= link_to 'CONTACT', contact_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% end %>
+        <%= link_to 'CONTACT', contact_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
+      <% end %>
       </li>
     </ul>
   </div>
