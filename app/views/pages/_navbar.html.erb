@@ -14,22 +14,14 @@
   <div class="collapse navbar-collapse" id="myNavbar" style=" border:hidden!important; border-width:0!important;">
     <ul class="nav navbar-nav navbar-right" style="padding-top:20px;">
       <li class="navlink">
-        <% if current_page?(root_path) %>
-          <%= link_to 'COMPANY', '/#index-s1',:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% elsif current_page?(company_path) %>
-          <%= link_to 'COMPANY', '/#company-s1',:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% else %>
-          <%= link_to 'COMPANY', company_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% end %>
+        <%= link_to 'COMPANY', company_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
       </li>
       <li class="navlink">
-        <% if current_page?(root_path) %>
-          <%= link_to 'VISION-MISSION', '/#index-s2',:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% else %>
-          <%= link_to 'VISION-MISSION', '/company/#company-s3',:class=>"navlink-a", 'data-no-turbolink' => true %>
-        <% end %>
+        <%= link_to 'COMPANY', company_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
       </li>
-      <li class="navlink"><%= link_to 'SUBSIDIARIES', '/#index-s3',:class=>"navlink-a", 'data-no-turbolink' => true %></li>
+      <li class="navlink">
+        <%= link_to 'SUBSIDIARIES', '/#subsidiaries',:class=>"navlink-a", 'data-no-turbolink' => true %>
+      </li>
       <li class="navlink">
         <% if current_page?(root_path) %>
           <%= link_to 'CONTACT', '/#index-s4',:class=>"navlink-a", 'data-no-turbolink' => true %>

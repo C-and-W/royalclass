@@ -31,7 +31,7 @@
         To exceed customer expectations<br>is our business.
       </div>
       <div class="index-more">
-        <%= link_to('/company/#company-s3', html_options = {class: 'index-more-link'}) do  %>
+        <%= link_to('/company/#culture', html_options = {class: 'index-more-link'}) do  %>
           >>>
         <% end %>
       </div>
@@ -39,7 +39,7 @@
   </section>
 
   <section id="index-s3" class="index-s">
-    <div class="index-logos">
+    <div class="index-logos" id="subsidiaries">
       <center>
         <%= link_to(rcp_path, html_options = {class: 'view-subsidiary-link'}) do  %>
           <%=image_tag "https://s3.amazonaws.com/royalclass/rcp-fc-min.png", :style => "width: 400px; margin-top: 40px;"%>
@@ -78,7 +78,7 @@
       </div>
       <div class="index-more">
         <%= link_to(contact_path, html_options = {class: 'index-more-link'}) do  %>
-          SAY HELLO&nbsp;&nbsp;>>>
+          LET'S TALK&nbsp;&nbsp;>>>
         <% end %>
       </div>
     </div>

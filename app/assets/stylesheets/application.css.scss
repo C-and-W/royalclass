@@ -65,7 +65,10 @@ body{
   margin-left: 20px;
   margin-right: 20px;
 }
-
+.navbar-default .navbar-nav > li > a:hover {
+  border-bottom: solid #B62128 3px;
+  padding-bottom: 7px!important;
+}
 /**** END OF NAVBAR ****/
 
 
@@ -311,7 +314,7 @@ body{
   font-weight: 400;
   color: white;
 }
-#company-s7-description-initial{
+.company-s7-description-initial{
   font-size: 45px;
 }
 
@@ -421,7 +424,7 @@ body{
 /**** RCF ****/
 
 #rcf-s1{
-  height: 100vh;
+  height: 120vh;
   background: 
   linear-gradient(
     rgba(64, 64, 64, 0.7), 
