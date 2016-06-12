@@ -11,20 +11,48 @@
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
+
+
   <div class="collapse navbar-collapse" id="myNavbar" style=" border:hidden!important; border-width:0!important;">
     <ul class="nav navbar-nav navbar-right" style="padding-top:20px;">
-      <li class="navlink">
-        <%= link_to 'COMPANY', company_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
+      <li class="navlink dropdown">
+        <button class="navlink-a dropdown-toggle" type="button" id="dropdown-option-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">COMPANY</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdown-option-1" id="dropdown-menu-1">
+          <li><%= link_to 'VISION', '/company/#vision', 'data-no-turbolink' => true %></li>
+          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true %></li>
+        </ul>
       </li>
-      <li class="navlink">
-        <%= link_to 'COMPANY', company_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
+      <li class="navlink dropdown">
+        <button class="navlink-a dropdown-toggle" type="button" id="dropdown-option-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">VISION-MISSION</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdown-option-2" id="dropdown-menu-2">
+          <li><%= link_to 'VISION', '/company/#vision', 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'CULTURE OF SERVICE<br>EXCELLENCE'.html_safe, '/company/#customers', 'data-no-turbolink' => true %></li>
+        </ul>
       </li>
-      <li class="navlink">
-        <%= link_to 'SUBSIDIARIES', '/#subsidiaries',:class=>"navlink-a", 'data-no-turbolink' => true %>
+      <li class="navlink dropdown">
+        <button class="navlink-a dropdown-toggle" type="button" id="dropdown-option-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">SUBSIDIARIES</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdown-option-3" id="dropdown-menu-3">
+          <li><%= link_to 'ROYAL CLASS<br>PETROLEUM'.html_safe, rcp_path, 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'ROYAL CLASS<br>TRANS CORP.'.html_safe, rct_path, 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'ROYAL CLASS<br>DEVELOPMENT'.html_safe, rcd_path, 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'JPGLOBAL<br>VENTURES'.html_safe, jpgv_path, 'data-no-turbolink' => true %></li>
+          <li role="separator" class="divider"></li>
+          <li><%= link_to 'ROYAL CLASS<br>FOUNDATION'.html_safe, rcf_path, 'data-no-turbolink' => true %></li>
+        </ul>
       </li>
-      <li class="navlink">
-        <%= link_to 'CONTACT', contact_path,:class=>"navlink-a", 'data-no-turbolink' => true %>
-      <% end %>
+      <li class="navlink dropdown">
+        <button class="navlink-a dropdown-toggle" type="button" id="dropdown-option-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CONTACT</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdown-option-4" id="dropdown-menu-4">
+          <li><%= link_to 'VISION', '/company/#vision', 'data-no-turbolink' => true %></li>
+          <li><%= link_to 'MISSION', '/company/#mission', 'data-no-turbolink' => true %></li>
+          <li><%= link_to 'CULTURE OF SERVICE EXCELLENCE', '/company/#customers', 'data-no-turbolink' => true %></li>
+        </ul>
       </li>
     </ul>
   </div>

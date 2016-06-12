@@ -2083,7 +2083,7 @@ body {
   margin: none;
   outline: 0;
   color: white !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 
@@ -2127,19 +2127,65 @@ body {
   padding-bottom: 7px !important;
 }
 
+/* line 73, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+.dropdown-toggle {
+  background: transparent;
+  border: none;
+}
+
+/* line 77, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+.dropdown-menu > li > a {
+  padding: 0;
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+  color: white;
+}
+
+/* line 83, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+.dropdown-menu > li > a:hover {
+  background: transparent;
+  color: black;
+}
+
+/* line 87, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+.dropdown-menu {
+  margin-right: 7px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  padding: 10px 15px;
+  background-color: #B62128;
+}
+
+/* line 96, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+#dropdown-menu-1 {
+  width: 10px;
+}
+
+/* line 99, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+#dropdown-menu-2 {
+  width: 205px;
+}
+
+/* line 102, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+#dropdown-menu-3 {
+  width: 175px;
+}
+
 /**** END OF NAVBAR ****/
 /**** INDEX ****/
-/* line 78, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 110, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #index-navbar {
   background: linear-gradient(rgba(29, 49, 64, 0.7), rgba(29, 49, 64, 0.7));
 }
 
-/* line 85, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 117, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .index-s {
   height: 100vh;
 }
 
-/* line 88, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 120, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #index-s1 {
   background: url(https://s3.amazonaws.com/royalclass/city-cars-road-traffic-min.jpg);
   -ms-background-size: cover;
@@ -2149,7 +2195,7 @@ body {
   background-size: cover;
 }
 
-/* line 96, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 128, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #index-s2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3.amazonaws.com/royalclass/picjumbo.com_IMG_8868-min.jpg);
   -ms-background-size: cover;
@@ -2159,7 +2205,7 @@ body {
   background-size: cover;
 }
 
-/* line 109, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 141, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #index-s3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3.amazonaws.com/royalclass/freeimage-15199481-high-min.jpg);
   -ms-background-size: cover;
@@ -2169,13 +2215,13 @@ body {
   background-size: cover;
 }
 
-/* line 122, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 154, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .view-subsidiary-link, .view-subsidiary-link:hover, .view-subsidiary-link:visited {
   outline: none;
   text-decoration: none;
 }
 
-/* line 126, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 158, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #index-s4 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3.amazonaws.com/royalclass/cars-road-traffic-dawn-min.jpg);
   -ms-background-size: cover;
@@ -2185,22 +2231,22 @@ body {
   background-size: cover;
 }
 
-/* line 139, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 171, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .index-text {
   color: white;
   padding-top: 35vh;
   margin-left: 9vw;
 }
 
-/* line 144, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 176, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .index-heading, .index-more {
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 
-/* line 150, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 182, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .index-description {
   letter-spacing: 1px;
   font-size: 55px;
@@ -2209,13 +2255,13 @@ body {
   margin-top: 40px;
 }
 
-/* line 157, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 189, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .index-more {
   font-weight: 300;
   margin-top: 15px;
 }
 
-/* line 161, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 193, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .index-more-link, .index-more-link:hover, .index-more-link:visited {
   text-decoration: none;
   color: white;
@@ -2223,7 +2269,7 @@ body {
 
 /**** END OF INDEX ****/
 /**** COMPANY ****/
-/* line 169, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 201, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s1 {
   height: 120vh;
   background: linear-gradient(rgba(57, 57, 57, 0.8), rgba(57, 57, 57, 0.8)), url(https://s3.amazonaws.com/royalclass/people-feet-train-travelling-min.jpeg);
@@ -2234,26 +2280,26 @@ body {
   background-size: cover;
 }
 
-/* line 183, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 215, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s1-text {
   padding-top: 35vh;
   margin-left: 9vw;
   color: white;
 }
 
-/* line 188, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 220, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s1-heading-a {
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 
-/* line 194, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 226, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s1-heading-b {
   letter-spacing: 4px;
   font-size: 67px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   margin-top: 0.5vh;
   border-bottom: 5px solid #B62128;
@@ -2262,7 +2308,7 @@ body {
   padding-right: 47px;
 }
 
-/* line 205, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 237, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s1-description {
   letter-spacing: 1px;
   font-size: 40px;
@@ -2271,13 +2317,13 @@ body {
   color: white;
 }
 
-/* line 212, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 244, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s2 {
   background-color: #333333;
   padding: 20vh 0vw;
 }
 
-/* line 216, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 248, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s2-text {
   font-family: 'Lora', serif;
   font-size: 25px;
@@ -2286,7 +2332,7 @@ body {
   color: white;
 }
 
-/* line 223, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 255, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s4 {
   height: 100vh;
   background: linear-gradient(rgba(57, 57, 57, 0.8), rgba(57, 57, 57, 0.8)), url(https://s3.amazonaws.com/royalclass/city-cars-traffic-lights-min.jpeg);
@@ -2297,22 +2343,22 @@ body {
   background-size: cover;
 }
 
-/* line 237, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 269, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-text {
   padding-top: 35vh;
   margin-left: 9vw;
 }
 
-/* line 241, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 273, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-heading {
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: white;
 }
 
-/* line 248, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 280, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-description {
   letter-spacing: 1px;
   font-size: 52px;
@@ -2321,42 +2367,42 @@ body {
   color: white;
 }
 
-/* line 255, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 287, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s5-dark {
   background-color: #333333;
   padding-left: 9vw;
 }
 
-/* line 259, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 291, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s5-light {
   background-color: #808080;
   padding-left: 9vw;
 }
 
-/* line 263, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 295, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s5-a {
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
 
-/* line 267, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 299, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s5-b {
   padding-top: 15vh;
   padding-bottom: 15vh;
 }
 
-/* line 271, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 303, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s5-c {
   padding-top: 18vh;
   padding-bottom: 18vh;
 }
 
-/* line 275, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 307, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s5-b .company-description, .company-s5-c .company-description {
   margin-top: 0;
 }
 
-/* line 278, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 310, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s6 {
   height: 100vh;
   background: linear-gradient(rgba(57, 57, 57, 0.8), rgba(57, 57, 57, 0.8)), url(https://s3.amazonaws.com/royalclass/pexels-photo-30267-min.jpg);
@@ -2368,7 +2414,7 @@ body {
   background-position: 50% center;
 }
 
-/* line 293, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 325, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #company-s7 {
   background-color: #333333;
   padding-top: 15vh;
@@ -2376,44 +2422,44 @@ body {
   padding-left: 40vh;
   letter-spacing: 15px;
   font-size: 70px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   color: #861924;
 }
 
-/* line 304, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 336, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s7-initial {
   color: #B52329;
   font-size: 95px;
 }
 
-/* line 308, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 340, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s7-initial-dark {
   font-size: 95px;
 }
 
-/* line 311, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 343, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s7-description {
   letter-spacing: 5.5px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: white;
 }
 
-/* line 318, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 350, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .company-s7-description-initial {
   font-size: 45px;
 }
 
 /**** END COMPANY ****/
 /**** CONTACT ****/
-/* line 327, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 359, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-s {
   height: 100vh;
 }
 
-/* line 330, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 362, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s1 {
   background: linear-gradient(rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.9)), url(https://s3.amazonaws.com/royalclass/P_20160113_084447-min.jpg);
   -ms-background-size: cover;
@@ -2423,7 +2469,7 @@ body {
   background-size: cover;
 }
 
-/* line 343, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 375, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s3 {
   background: linear-gradient(rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.9)), url(https://s3.amazonaws.com/royalclass/road-sky-clouds-cloudy-min.jpg);
   -ms-background-size: cover;
@@ -2433,64 +2479,64 @@ body {
   background-size: cover;
 }
 
-/* line 356, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 388, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-s2 {
   height: 28vh;
 }
 
-/* line 359, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 391, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s2-b {
   background-color: #808080;
 }
 
-/* line 362, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 394, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-text {
   color: white;
   padding-top: 25vh;
   margin-left: 9vw;
 }
 
-/* line 367, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 399, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-heading {
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 
-/* line 373, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 405, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-description {
   letter-spacing: 1px;
   font-size: 40px;
   font-family: 'Lora', serif;
 }
 
-/* line 378, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 410, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-description-a, #contact-description-b {
   margin-top: 50px;
 }
 
-/* line 381, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 413, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-description-sub {
   font-size: 35px;
 }
 
-/* line 384, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 416, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-description-sub-a {
   margin-top: 6px;
 }
 
-/* line 387, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 419, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-description-sub-b {
   margin-top: -8px;
 }
 
-/* line 390, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 422, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-description-c {
   margin-top: 95px;
 }
 
-/* line 393, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 425, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .contact-s2-text {
   letter-spacing: 1px;
   font-size: 40px;
@@ -2498,33 +2544,33 @@ body {
   margin-top: 11vh;
 }
 
-/* line 399, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 431, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s2-a-text, #contact-s2-c-text {
   color: black;
 }
 
-/* line 402, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 434, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s2-a-text {
   margin-left: 2.5vw;
 }
 
-/* line 405, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 437, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s2-b-text {
   color: white;
   margin-left: 5vw;
 }
 
-/* line 409, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 441, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s2-c-text {
   margin-left: 10vw;
 }
 
-/* line 412, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 444, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s3-text {
   padding-top: 35vh;
 }
 
-/* line 415, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 447, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #contact-s3-description {
   letter-spacing: 1px;
   font-size: 35px;
@@ -2535,7 +2581,7 @@ body {
 
 /**** END OF CONTACT ****/
 /**** RCF ****/
-/* line 427, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 459, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #rcf-s1 {
   height: 120vh;
   background: linear-gradient(rgba(64, 64, 64, 0.7), rgba(64, 64, 64, 0.7)), url(https://s3.amazonaws.com/royalclass/people-show-chairs-gym-copy-min.jpg);
@@ -2549,7 +2595,7 @@ body {
 
 /**** END OF RCF ****/
 /**** RC TABLES ****/
-/* line 447, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 479, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-s1-text {
   letter-spacing: 1px;
   font-size: 40px;
@@ -2559,37 +2605,37 @@ body {
   color: white;
 }
 
-/* line 455, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 487, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-heading {
   background-color: white;
   letter-spacing: 3px;
   font-size: 35px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: #B52329;
   text-align: center;
 }
 
-/* line 464, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 496, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-heading-text {
   padding-top: 10vh;
 }
 
-/* line 467, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 499, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-white-row {
   background-color: white;
   color: black;
   padding-bottom: 3vh;
 }
 
-/* line 472, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 504, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-gray-row {
   background-color: #808080;
   color: white;
   padding-bottom: 3vh;
 }
 
-/* line 477, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 509, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-left-col {
   letter-spacing: -1px;
   font-size: 30px;
@@ -2600,19 +2646,19 @@ body {
   padding-top: 4vh;
 }
 
-/* line 486, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 518, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-left-col-sub {
   font-weight: 400;
 }
 
-/* line 489, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 521, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-right-col {
   font-family: 'Lora', serif;
   margin-left: 5vw;
   padding-top: 4vh;
 }
 
-/* line 494, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 526, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-right-col-heading {
   font-size: 25px;
   font-style: italic;
@@ -2620,54 +2666,54 @@ body {
   font-weight: 700;
 }
 
-/* line 500, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 532, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-right-col-description {
   font-size: 25px;
   letter-spacing: 0px;
   font-weight: 400;
 }
 
-/* line 505, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 537, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-view-gallery {
   height: 25vh;
   background-color: white;
   letter-spacing: 1px;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: #B52329;
   margin-left: 5vw;
   padding-top: 2vh;
 }
 
-/* line 516, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 548, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .view-gallery-link, .view-gallery-link:hover, .view-gallery-link:visited {
   text-decoration: none;
   color: #B52329;
 }
 
-/* line 520, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 552, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-footer {
   height: 21vh;
   background-color: #4C4C4C;
 }
 
-/* line 524, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 556, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-footer-text {
   padding-top: 5vh;
   text-align: center;
 }
 
-/* line 528, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 560, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-footer-heading {
   font-size: 37px;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: #B52329;
 }
 
-/* line 535, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 567, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-table-footer-description {
   font-size: 40px;
   color: white;
@@ -2677,23 +2723,23 @@ body {
 
 /**** END OF RC TABLES ****/
 /**** GALLERIES ****/
-/* line 546, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 578, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .rc-gallery {
   min-height: 100vh;
 }
 
-/* line 549, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 581, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .gallery-logo {
   margin-top: 17vh;
 }
 
-/* line 552, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 584, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .back-from-gallery-link, .back-from-gallery-link:hover, .back-from-gallery-link:visited {
   outline: none;
   text-decoration: none;
 }
 
-/* line 556, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 588, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .gallery-images {
   margin-top: 6vh;
   margin-left: 2vw;
@@ -2701,7 +2747,7 @@ body {
   margin-bottom: 3vw;
 }
 
-/* line 562, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 594, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 .gallery-image-box {
   margin-left: 0.5vw;
   margin-right: 0.5vw;
@@ -2711,7 +2757,7 @@ body {
 
 /**** END OF GALLERIES ****/
 /**** RCT ****/
-/* line 573, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 605, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #rct-s1 {
   height: 120vh;
   background: linear-gradient(rgba(64, 64, 64, 0.7), rgba(64, 64, 64, 0.7)), url(https://s3.amazonaws.com/royalclass/P_20160113_084429-min.jpg);
@@ -2725,7 +2771,7 @@ body {
 
 /**** END OF RCT ****/
 /**** RCP ****/
-/* line 593, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 625, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #rcp-s1 {
   height: 120vh;
   background: linear-gradient(rgba(57, 57, 57, 0.8), rgba(57, 57, 57, 0.8)), url(https://s3.amazonaws.com/royalclass/pumpjpg-a2d01aa1a85c2486-min.jpg);
@@ -2738,7 +2784,7 @@ body {
 
 /**** END OF RCP ****/
 /**** RCD ****/
-/* line 612, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 644, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #rcd-s1 {
   height: 120vh;
   background: linear-gradient(rgba(57, 57, 57, 0.8), rgba(57, 57, 57, 0.8)), url(https://s3.amazonaws.com/royalclass/architecture-bridge-bahia-copy-min.jpg);
@@ -2751,7 +2797,7 @@ body {
 
 /**** END OF RCD ****/
 /**** JPGV ****/
-/* line 631, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 663, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #jpgv-s1-left {
   width: 50vw;
   position: absolute;
@@ -2766,7 +2812,7 @@ body {
   background-position: 30% bottom;
 }
 
-/* line 649, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 681, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #jpgv-s1-right {
   width: 50vw;
   position: absolute;
@@ -2781,7 +2827,7 @@ body {
   background-position: center center;
 }
 
-/* line 667, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 699, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #jpgv-s1-text {
   letter-spacing: 1px;
   font-size: 40px;
@@ -2792,12 +2838,12 @@ body {
   position: absolute;
 }
 
-/* line 676, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 708, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #jpgv-s1 {
   height: 120vh;
 }
 
-/* line 679, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
+/* line 711, /home/jacq/Desktop/royalclass/app/assets/stylesheets/application.css.scss */
 #view-sinotruk-link, #view-sinotruk-link:hover, #view-sinotruk-link:visited {
   text-decoration: none;
   color: #1C75BC;

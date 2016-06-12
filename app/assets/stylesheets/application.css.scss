@@ -38,7 +38,7 @@ body{
 .navlink-a{
   letter-spacing: 2px;
   font-size:25px!important;margin:none; outline:0; color:white!important;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 .navbar {
@@ -68,6 +68,38 @@ body{
 .navbar-default .navbar-nav > li > a:hover {
   border-bottom: solid #B62128 3px;
   padding-bottom: 7px!important;
+}
+.dropdown-toggle{
+  background: transparent;
+  border:none;
+}
+.dropdown-menu>li>a{
+  padding:0;
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+  color:white;
+}
+.dropdown-menu>li>a:hover{
+  background:transparent;
+  color: black;
+}
+.dropdown-menu{
+  margin-right: 7px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  padding: 10px 15px;
+  background-color: #B62128;
+}
+#dropdown-menu-1{
+  width: 10px;
+}
+#dropdown-menu-2{
+  width: 205px;
+}
+#dropdown-menu-3{
+  width: 175px;
 }
 /**** END OF NAVBAR ****/
 
@@ -143,7 +175,7 @@ body{
 .index-heading, .index-more{
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 .index-description{
@@ -187,13 +219,13 @@ body{
 #company-s1-heading-a{
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 #company-s1-heading-b{
   letter-spacing: 4px;
   font-size: 67px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   margin-top: 0.5vh;
   border-bottom: 5px solid #B62128;
@@ -240,7 +272,7 @@ body{
 .company-heading{
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: white;
 }
@@ -296,7 +328,7 @@ body{
   padding-left: 40vh;
   letter-spacing: 15px;
   font-size: 70px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   color: #861924;
 }
@@ -310,7 +342,7 @@ body{
 .company-s7-description{
   letter-spacing: 5.5px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: white;
 }
@@ -366,7 +398,7 @@ body{
 #contact-heading{
   letter-spacing: 2px;
   font-size: 33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 .contact-description{
@@ -455,8 +487,8 @@ body{
   background-color: white;
   letter-spacing: 3px;
   font-size: 35px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: #B52329;
   text-align: center;
 }
@@ -506,8 +538,8 @@ body{
   background-color: white;
   letter-spacing: 1px;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: #B52329;
   margin-left: 5vw;
   padding-top: 2vh;
@@ -527,8 +559,8 @@ body{
 .rc-table-footer-heading{
   font-size: 37px;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
   color: #B52329;
 }
 .rc-table-footer-description{
