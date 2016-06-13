@@ -337,6 +337,9 @@ body{
   font-weight: 700;
   color: #861924;
 }
+.company-s7-group{
+  display: inline-block;
+}
 .company-s7-initial{
   color: #B52329;
   font-size: 95px;
@@ -446,6 +449,14 @@ body{
 #contact-s2-c-text{
   margin-left: 10vw;
 }
+.contact-email-link-white, .contact-email-link-white:hover, .contact-email-link-white:visited, .contact-email-link-white:focus{
+  color:black;
+  text-decoration: none;
+}
+.contact-email-link-gray, .contact-email-link-gray:hover, .contact-email-link-gray:visited, .contact-email-link-gray:focus{
+  color:white;
+  text-decoration: none;
+}
 #contact-s3-text{
   padding-top: 35vh;
 }
@@ -550,7 +561,7 @@ body{
   margin-left: 5vw;
   padding-top: 2vh;
 }
-.view-gallery-link, .view-gallery-link:hover, .view-gallery-link:visited{
+.view-gallery-link, .view-gallery-link:hover, .view-gallery-link:visited, .view-gallery-link:focus{
   text-decoration:none;
   color:#B52329; 
 }
@@ -586,7 +597,7 @@ body{
 .gallery-logo{
   margin-top: 17vh;
 }
-.back-from-gallery-link, .back-from-gallery-link:hover, .back-from-gallery-link:visited{
+.back-from-gallery-link, .back-from-gallery-link:hover, .back-from-gallery-link:visited, .back-from-gallery-link:focus{
   outline:none;
   text-decoration: none;
 }
@@ -713,7 +724,7 @@ body{
 #jpgv-s1{
   height: 120vh;
 }
-#view-sinotruk-link, #view-sinotruk-link:hover, #view-sinotruk-link:visited{
+#view-sinotruk-link, #view-sinotruk-link:hover, #view-sinotruk-link:visited, #view-sinotruk-link:focus{
   text-decoration:none;
   color:#1C75BC; 
 }

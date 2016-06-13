@@ -37,4 +37,4 @@ Historical Timeline - leads to timeline - Hover animation on short description r
 detailed description (refer to Company Profile File.docx)
 
 
-Culture Of Service Excellence - leads to “CUSTOMERS” - Hover animation revealing short description (refer to PDF)
+Culture Of Service Excellence - leads to “CUSTOMERS” - Hover animation revealing short description (refer to PDF) -- fix! so inline/just heading
