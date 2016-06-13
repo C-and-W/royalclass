@@ -57,6 +57,7 @@ body{
 }
 .navbar-right{
   margin-right: 60px;
+  padding-top:20px;
 }
 .navbar-default .navbar-nav > li > a {
   padding-bottom: 2px!important;
@@ -69,6 +70,17 @@ body{
   border-bottom: solid #B62128 3px;
   padding-bottom: 7px!important;
 }
+/* TO DISABLE COLLAPSING NAVBAR TO A SUBMENU */
+.navbar-collapse.collapse {
+  display: block!important;
+}
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+.navbar-right {
+  float: right!important;
+}
+/* END OF TO DISABLE COLLAPSING NAVBAR TO A SUBMENU */
 .dropdown-toggle{
   background: transparent;
   border:none;
@@ -119,7 +131,7 @@ body{
   );
 }
 .index-s {
-  height: 100vh;
+  min-height: 100vh;
 }
 #index-s1{
   background: url(https://s3.amazonaws.com/royalclass/city-cars-road-traffic-min.jpg);
@@ -176,6 +188,8 @@ body{
   color: white;
   padding-top: 35vh;
   margin-left: 9vw;
+  margin-right: 9vw;
+  padding-bottom: 20vh;
 }
 .index-heading, .index-more{
   letter-spacing: 2px;
@@ -203,7 +217,7 @@ body{
 /**** COMPANY ****/
 
 #company-s1{
-  height: 120vh;
+  min-height: 120vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.8), 
@@ -219,6 +233,8 @@ body{
 #company-s1-text{
   padding-top: 35vh;
   margin-left: 9vw;
+  margin-right: 9vw;
+  padding-bottom: 20vh;
   color: white;
 }
 #company-s1-heading-a{
@@ -247,7 +263,7 @@ body{
 }
 #company-s2{
   background-color: #333333;
-  padding: 20vh 0vw;
+  padding: 20vh 9vw;
 }
 #company-s2-text{
   font-family: 'Lora', serif;
@@ -257,7 +273,7 @@ body{
   color:white;
 }
 #company-s4{
-  height: 100vh;
+  min-height: 100vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.8), 
@@ -273,6 +289,8 @@ body{
 .company-text{
   padding-top: 35vh;
   margin-left: 9vw;
+  margin-right: 9vw;
+  padding-bottom: 20vh;
 }
 .company-heading{
   letter-spacing: 2px;
@@ -291,10 +309,12 @@ body{
 .company-s5-dark{
   background-color: #333333;
   padding-left: 9vw;
+  padding-right: 9vw;
 }
 .company-s5-light{
   background-color: #808080;
   padding-left: 9vw;
+  padding-right: 9vw;
 }
 #company-s5-a{
   padding-top: calc(185px);
@@ -312,7 +332,7 @@ body{
   margin-top: 0;
 }
 #company-s6{
-  height: 100vh;
+  min-height: 100vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.8), 
@@ -330,7 +350,7 @@ body{
   background-color: #333333;
   padding-top: 15vh;
   padding-bottom: 15vh;
-  padding-left: 40vh;
+  padding-left: 25vw;
   letter-spacing: 15px;
   font-size: 70px;
   font-family: 'Titillium Web', sans-serif;
@@ -365,7 +385,7 @@ body{
 /**** CONTACT ****/
 
 .contact-s {
-  height: 100vh;
+  min-height: 100vh;
 }
 #contact-s1{
   background: 
@@ -394,7 +414,11 @@ body{
   background-size: cover;
 }
 .contact-s2{
-  height: 28vh;
+  min-height: 28vh;
+  padding-left: 8vw;
+  padding-top: 8.5vh;
+  padding-bottom: 5vh;
+  padding-right: 8vw;
 }
 #contact-s2-b{
   background-color: #808080;
@@ -402,7 +426,9 @@ body{
 #contact-text{
   color: white;
   padding-top: 25vh;
+  padding-bottom: 20vh;
   margin-left: 9vw;
+  margin-right: 9vw;
 }
 #contact-heading{
   letter-spacing: 2px;
@@ -434,7 +460,7 @@ body{
   letter-spacing: 1px;
   font-size: 40px;
   font-family: 'Lora', serif;
-  margin-top: 11vh;
+  margin-top: 2.5vh;
 }
 #contact-s2-a-text, #contact-s2-c-text{
   color:black;
@@ -448,6 +474,14 @@ body{
 }
 #contact-s2-c-text{
   margin-left: 10vw;
+}
+@media screen and (max-width: 1415px) {
+  .contact-s2-logo{
+    width: 100%;
+  }
+  #contact-s2-a-text, #contact-s2-b-text, #contact-s2-c-text{
+    margin-left: 0;
+  }
 }
 .contact-email-link-white, .contact-email-link-white:hover, .contact-email-link-white:visited, .contact-email-link-white:focus{
   color:black;
@@ -497,7 +531,9 @@ body{
   font-size: 40px;
   font-family: 'Lora', serif;
   margin-top: 10vh;
+  padding-bottom: 20vh;
   margin-left: 7vw;
+  margin-right: 7vw;
   color: white;
 }
 .rc-table-heading{
@@ -508,8 +544,6 @@ body{
   font-weight: 700;
   color: #B52329;
   text-align: center;
-}
-.rc-table-heading-text{
   padding-top:10vh;
 }
 .rc-table-white-row{
@@ -529,6 +563,7 @@ body{
   font-weight: 700;
   font-style: italic;
   margin-left: 5vw;
+  margin-right: 5vw;
   padding-top: 4vh;
 }
 .rc-table-left-col-sub{
@@ -537,6 +572,7 @@ body{
 .rc-table-right-col{
   font-family: 'Lora', serif;
   margin-left: 5vw;
+  margin-right: 5vw;
   padding-top: 4vh;
 }
 .rc-table-right-col-heading{
@@ -619,7 +655,7 @@ body{
 /**** RCT ****/
 
 #rct-s1{
-  height: 120vh;
+  min-height: 120vh;
   background: 
   linear-gradient(
     rgba(64, 64, 64, 0.7), 
@@ -639,7 +675,7 @@ body{
 /**** RCP ****/
 
 #rcp-s1{
-  height: 120vh;
+  min-height: 120vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.8), 
@@ -658,7 +694,7 @@ body{
 /**** RCD ****/
 
 #rcd-s1{
-  height: 120vh;
+  min-height: 120vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.8), 
@@ -680,7 +716,7 @@ body{
   width: 50vw;
   position: absolute;
   left: 0px;
-  height: 120vh;
+  min-height: 120vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.9), 
@@ -698,7 +734,7 @@ body{
   width: 50vw;
   position: absolute;
   right: 0px;
-  height: 120vh;
+  min-height: 120vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.9), 
@@ -718,11 +754,13 @@ body{
   font-family: 'Lora', serif;
   margin-top: 55vh;
   margin-left: 7vw;
+  margin-right: 7vw;
+  margin-bottom: 20vh;
   color: white;
   position: absolute;
 }
 #jpgv-s1{
-  height: 120vh;
+  min-height: 120vh;
 }
 #view-sinotruk-link, #view-sinotruk-link:hover, #view-sinotruk-link:visited, #view-sinotruk-link:focus{
   text-decoration:none;
