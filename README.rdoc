@@ -32,7 +32,7 @@ Please feel free to use a different markup language if you do not plan to run
 **favicon
 **SEO
 **navbar responsive
-**yung mga intentional<br> sa text, weird na pag niresize yung screen width
+**yung mga intentional<br> sa text, weird na pag niresize yung screen width T.T
 
 Historical Timeline - leads to timeline - Hover animation on short description revealing longer and more-
 detailed description (refer to Company Profile File.docx)
