@@ -207,7 +207,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   less-rails
-  pg (= 0.18.4)
+  pg
   puma
   rails (= 4.2.4)
   rails_12factor
