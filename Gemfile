@@ -35,7 +35,7 @@ gem 'twitter-bootstrap-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
-  gem 'pg' 
+  gem 'pg', '0.18.4'
   gem 'rails_12factor' 
 end
 
