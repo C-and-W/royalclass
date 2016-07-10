@@ -267,7 +267,7 @@ body{
 }
 #company-s2{
   background-color: #333333;
-  padding: 20vh 23vw;
+  padding: 20vh;
 }
 #company-s2-text{
   font-family: 'Lora', serif;
@@ -277,6 +277,8 @@ body{
   color:white;
   text-align: center;
   line-height: 32px;
+  padding-left: 12vw;
+  padding-right: 12vw
 }
 #company-s4{
   min-height: 100vh;
@@ -384,7 +386,146 @@ body{
 .company-s7-description-initial{
   font-size: 36px;
 }
+/**** Company timeline****/
+.timlinecont1{
+  margin-top: 34vh;
+}
+.timelineheader{
+  text-align: center;
+}
+.timeliney{
+    color:white;
+    letter-spacing: 1px;
+  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+ 
+}
+.timelineh{
+    color:white;
+    letter-spacing: 4px;
+  font-size: 32px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  margin-top: 0.5vh;
+  border-bottom: 3px solid #B62128;
+  display: inline-block;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  color:white;
+  margin-top: 50px;
+}
 
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #2682ff;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+
+}
+
+
+
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 3px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 31px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #2682ff;
+  z-index: 100;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+  float:right;
+}
+.timeline-titler {
+  margin-top: 0;
+  color: inherit;
+  float:left;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+/**** end company timeline****/
 
 /**** END COMPANY ****/
 
