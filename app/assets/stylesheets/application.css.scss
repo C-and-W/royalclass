@@ -96,27 +96,31 @@ body{
   color: black;
 }
 .dropdown-menu{
-  margin-right: 4px;
+  margin-right: 0px;
   letter-spacing: 2px;
   font-size: 13px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
-  padding: 10px 15px;
+  padding: 10px 10px;
   background-color: #B62128;
 }
 #dropdown-menu-1{
-  max-width: 130px!important;
-  min-width: 130px!important;
+  max-width: 120px!important;
+  min-width: 120px!important;
+  margin-right: -2px;
 }
 #dropdown-menu-2{
-  width: 208px;
+  width: 190px;
+  margin-right: -2px;
 }
 #dropdown-menu-3{
-  width: 178px;
+  width: 160px;
+  margin-right: -2px;
 }
 #dropdown-menu-4{
   max-width: 120px!important;
   min-width: 120px!important;
+  margin-right: -6px;
 }
 /**** END OF NAVBAR ****/
 
