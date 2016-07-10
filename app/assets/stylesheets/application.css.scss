@@ -267,7 +267,8 @@ body{
 }
 #company-s2{
   background-color: #333333;
-  padding: 20vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 #company-s2-text{
   font-family: 'Lora', serif;
@@ -277,8 +278,8 @@ body{
   color:white;
   text-align: center;
   line-height: 32px;
-  padding-left: 12vw;
-  padding-right: 12vw
+  padding-left: 19vw;
+  padding-right: 19vw
 }
 #company-s4{
   min-height: 100vh;
@@ -390,6 +391,9 @@ body{
 .timlinecont1{
   margin-top: 34vh;
 }
+.timlinecont2{
+  margin-top: 10vh;
+}
 .timelineheader{
   text-align: center;
 }
@@ -408,12 +412,16 @@ body{
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   margin-top: 0.5vh;
-  border-bottom: 3px solid #B62128;
+ 
   display: inline-block;
-  padding-bottom: 8px;
   padding-right: 20px;
   padding-left: 20px;
   text-align: center;
+}
+.hrred{
+  margin-top: 7px;
+   border: 2px solid #B62128;
+   width:52vw;
 }
 .timeline {
   list-style: none;
@@ -522,7 +530,7 @@ body{
   float:left;
    font-size: 22px;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 
 }
 .timeline-titlerd {
@@ -532,7 +540,7 @@ body{
   float:right;
 font-size: 22px;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 
 }
 .timeline-titler {
