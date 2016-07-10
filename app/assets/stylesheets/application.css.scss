@@ -598,6 +598,7 @@ font-size: 22px;
   background-size: cover;
 }
 #contact-s3{
+  height:120vh;
   background: 
   linear-gradient(
     rgba(39, 39, 39, 0.9), 
@@ -635,14 +636,14 @@ font-size: 22px;
 }
 .contact-description{
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 32px;
   font-family: 'Lora', serif;
 }
 #contact-description-a, #contact-description-b{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .contact-description-sub{
-  font-size: 35px;
+  font-size: 24px;
 }
 .contact-description-sub-a{
   margin-top: 6px;
@@ -651,13 +652,17 @@ font-size: 22px;
   margin-top: -8px;
 }
 #contact-description-c{
-  margin-top: 95px;
+  margin-top: 45px;
+}
+#contact-s2-a{
+  width:100vw;
 }
 .contact-s2-text{
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 28px;
   font-family: 'Lora', serif;
   margin-top: 2.5vh;
+  margin-left: 5vw;
 }
 #contact-s2-a-text, #contact-s2-c-text{
   color:black;
@@ -672,7 +677,7 @@ font-size: 22px;
 #contact-s2-c-text{
   margin-left: 10vw;
 }
-@media screen and (max-width: 1415px) {
+@media screen and (max-width: 800px) {
   .contact-s2-logo{
     width: 100%;
   }
