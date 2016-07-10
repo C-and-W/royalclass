@@ -725,9 +725,9 @@ font-size: 22px;
 
 .rc-s1-text{
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 38px;
   font-family: 'Lora', serif;
-  margin-top: 10vh;
+  margin-top: 8vh;
   padding-bottom: 20vh;
   margin-left: 7vw;
   margin-right: 7vw;
@@ -736,9 +736,9 @@ font-size: 22px;
 .rc-table-heading{
   background-color: white;
   letter-spacing: 3px;
-  font-size: 45px;
+  font-size: 40px;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #B52329;
   text-align: center;
   padding-top:10vh;
@@ -755,7 +755,7 @@ font-size: 22px;
 }
 .rc-table-left-col{
   letter-spacing: -1px;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Lora', serif;
   font-weight: 700;
   font-style: italic;
@@ -768,8 +768,8 @@ font-size: 22px;
 }
 .rc-table-right-col{
   font-family: 'Lora', serif;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 2vw;
+  margin-right: 6vw;
   padding-top: 4vh;
 }
 .rc-table-right-col-heading{
@@ -779,7 +779,7 @@ font-size: 22px;
   font-weight: 700;
 }
 .rc-table-right-col-description{
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: 0px;
   font-weight: 400;
 }
@@ -799,7 +799,7 @@ font-size: 22px;
   color:#B52329; 
 }
 .rc-table-footer{
-  height: 21vh;
+  height: 30vh;
   background-color: #4C4C4C;
 }
 .rc-table-footer-text{
@@ -807,14 +807,14 @@ font-size: 22px;
   text-align: center;
 }
 .rc-table-footer-heading{
-  font-size: 42px;
+  font-size: 36px;
   letter-spacing: 1px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   color: #B52329;
 }
 .rc-table-footer-description{
-  font-size: 40px;
+  font-size: 34px;
   color: white;
   letter-spacing: 1px;
   font-family: 'Lora', serif;
@@ -852,7 +852,7 @@ font-size: 22px;
 /**** RCT ****/
 
 #rct-s1{
-  min-height: 120vh;
+  min-height: 101vh;
   background: 
   linear-gradient(
     rgba(64, 64, 64, 0.7), 
@@ -913,7 +913,7 @@ font-size: 22px;
   width: 50vw;
   position: absolute;
   left: 0px;
-  min-height: 120vh;
+  min-height: 105vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.9), 
@@ -931,7 +931,7 @@ font-size: 22px;
   width: 50vw;
   position: absolute;
   right: 0px;
-  min-height: 120vh;
+  min-height: 105vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.9), 
