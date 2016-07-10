@@ -24,20 +24,20 @@ body{
 
 .navbar{
   background:transparent;
-  height:185px; 
+  height:120px; 
   padding:none; 
   border-color:transparent; 
   border:none;
 }
 .navbar-brand{
-  width:200px!important;
+  width:250px!important;
 }
 .navlink{
-  margin:45px 2vw 0px 1vw;
+  margin:27px 2.2vw 0px 1vw;
 }
 .navlink-a{
   letter-spacing: 2px;
-  font-size:25px!important;margin:none; outline:0; color:white!important;
+  font-size:20px!important;margin:none; outline:0; color:white!important;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
@@ -56,7 +56,7 @@ body{
   background: #4C4C4C!important;
 }
 .navbar-right{
-  margin-right: 60px;
+  margin-right: 5vw;
   padding-top:20px;
 }
 .navbar-default .navbar-nav > li > a {
@@ -155,6 +155,7 @@ body{
   background-size: cover;
 }
 #index-s3{
+  height:160vh;
   background: 
   linear-gradient(
     rgba(0, 0, 0, 0.5), 
@@ -186,23 +187,23 @@ body{
 }
 .index-text{
   color: white;
-  padding-top: 35vh;
+  padding-top: 32vh;
   margin-left: 9vw;
   margin-right: 9vw;
   padding-bottom: 20vh;
 }
 .index-heading, .index-more{
   letter-spacing: 2px;
-  font-size: 33px;
+  font-size: 28px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 .index-description{
   letter-spacing: 1px;
-  font-size: 55px;
+  font-size: 38px;
   font-family: 'Lora', serif;
   font-weight: 400;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .index-more{
   font-weight: 300;
@@ -212,12 +213,15 @@ body{
   text-decoration:none;
   color:white; 
 }
+.index-logos{
+  padding-top: 5vh;
+}
 /**** END OF INDEX ****/
 
 /**** COMPANY ****/
 
 #company-s1{
-  min-height: 120vh;
+  min-height: 100vh;
   background: 
   linear-gradient(
     rgba(57, 57, 57, 0.8), 
@@ -231,7 +235,7 @@ body{
   background-size: cover;
 }
 #company-s1-text{
-  padding-top: 35vh;
+  padding-top: 24vh;
   margin-left: 9vw;
   margin-right: 9vw;
   padding-bottom: 20vh;
@@ -239,24 +243,24 @@ body{
 }
 #company-s1-heading-a{
   letter-spacing: 2px;
-  font-size: 33px;
+  font-size: 28px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
 }
 #company-s1-heading-b{
   letter-spacing: 4px;
-  font-size: 67px;
+  font-size: 58px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   margin-top: 0.5vh;
   border-bottom: 5px solid #B62128;
   display: inline-block;
-  padding-bottom: 15px;
-  padding-right: 47px;
+  padding-bottom: 8px;
+  padding-right: 40px;
 }
 #company-s1-description{
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 38px;
   font-family: 'Lora', serif;
   margin-top: 4.5vh;
   color: white;
@@ -267,11 +271,12 @@ body{
 }
 #company-s2-text{
   font-family: 'Lora', serif;
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: 0px;
   font-weight: 400;
   color:white;
   text-align: center;
+  line-height: 32px;
 }
 #company-s4{
   min-height: 100vh;
@@ -288,23 +293,23 @@ body{
   background-size: cover;
 }
 .company-text{
-  padding-top: 35vh;
+  padding-top: 30vh;
   margin-left: 9vw;
   margin-right: 9vw;
   padding-bottom: 20vh;
 }
 .company-heading{
   letter-spacing: 2px;
-  font-size: 33px;
+  font-size: 28px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: white;
 }
 .company-description{
   letter-spacing: 1px;
-  font-size: 52px;
+  font-size: 38px;
   font-family: 'Lora', serif;
-  margin-top: 5vh;
+  margin-top: 4vh;
   color: white;
 }
 .company-s5-dark{
@@ -318,16 +323,16 @@ body{
   padding-right: 9vw;
 }
 #company-s5-a{
-  padding-top: calc(185px);
+  padding-top: 10vh;
   padding-bottom: 10vh;
 }
 #company-s5-b{
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .company-s5-c{
-  padding-top: 18vh;
-  padding-bottom: 18vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 #company-s5-b .company-description, .company-s5-c .company-description{
   margin-top: 0;
@@ -363,21 +368,21 @@ body{
 }
 .company-s7-initial{
   color: #B52329;
-  font-size: 95px;
+  font-size: 84px;
 }
 .company-s7-initial-dark{
-  font-size: 95px;
+  font-size: 84px;
 }
 .company-s7-description{
-  letter-spacing: 5.5px;
-  font-size: 33px;
+  letter-spacing: 4px;
+  font-size: 28px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   color: white;
   display: none;
 }
 .company-s7-description-initial{
-  font-size: 45px;
+  font-size: 36px;
 }
 
 
