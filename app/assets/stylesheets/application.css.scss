@@ -468,13 +468,16 @@ body{
 }
 
 .timeline > li > .timeline-panel {
-  width: 46%;
+  width: 30%;
   float: left;
   border: 1px solid transparent;
   border-radius: 2px;
   padding: 20px;
   position: relative;
-
+  margin-left: 16%;
+}
+.timeline > li > .timeline-inverted>.timeline-panel {
+  margin-right: 16vw;
 }
 
 .timeline > li > .timeline-badge {
@@ -509,8 +512,25 @@ body{
 
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
+  margin-right: 16vw;
 }
-
+.timeline-panel:hover{
+  background-color:#595959!important;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.timeline-panel:hover .timeline-heading{
+  display:none;
+}
+.timeline-heading1{
+  display:none;
+}
+.timeline-panel:hover .timeline-heading1{
+  display: block;
+}
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
@@ -543,11 +563,10 @@ body{
    font-size: 22px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-
 }
 .timeline-titlerd {
   margin-top: 0;
-  margin-right: 100px;
+  margin-right: -7.5vw;
   color: #B62128;
   float:right;
 font-size: 22px;
@@ -563,8 +582,8 @@ font-size: 22px;
   font-size: 22px;
   letter-spacing: 0px;
   font-weight: 400;
-
 }
+
 
 .timeline-body > p,
 .timeline-body > ul {
