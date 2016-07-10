@@ -1,1 +1,0 @@
-$("ul.nav li.dropdown").hover(function(){$(this).find(".dropdown-menu").stop(!0,!0).fadeIn(300)},function(){$(this).find(".dropdown-menu").stop(!0,!0).fadeOut(300)});
