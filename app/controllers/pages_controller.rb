@@ -43,4 +43,12 @@ class PagesController < ApplicationController
       format.html { render :text => "google-site-verification: google850860c998ac7b04.html"}
     end
   end
+
+  def sitemap
+    render :file=>Rails.root.join(*%w( sitemap.xml)), :content_type => 'application/xml', :layout => false
+  end
+
+  def sitemap_www
+    render :file=>Rails.root.join(*%w( sitemap_www.xml)), :content_type => 'application/xml', :layout => false
+  end
 end
