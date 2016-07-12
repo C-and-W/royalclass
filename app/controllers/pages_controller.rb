@@ -39,5 +39,8 @@ class PagesController < ApplicationController
   end
 
   def google_verification
+    respond_to do |format|
+      format.html { render :text => "google-site-verification: google850860c998ac7b04.html"}
+    end
   end
 end
