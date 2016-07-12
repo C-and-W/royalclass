@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get '/jpgv' => 'pages#jpgv', as: :jpgv
   get '/jpgv/gallery' => 'pages#jpgv_gallery', as: :jpgv_gallery
   get '/jpgv/sinotruk-cimc' => 'pages#jpgv_sinotruk', as: :jpgv_sinotruk
+  get '/google850860c998ac7b04.html' => 'pages#google850860c998ac7b04.html'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

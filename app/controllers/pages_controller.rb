@@ -37,7 +37,7 @@ class PagesController < ApplicationController
 
   def jpgv_sinotruk
   end
-  
-  def trial
+
+  def google_verification
   end
 end
