@@ -8,77 +8,77 @@
 
 <url>
   <loc>http://royalclassgroup.com/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/company</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/company/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rcp</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rct</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rcd</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/jpgv</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rcf</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/contact</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/contact/</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rcp/gallery</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rct/gallery</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/rcd/gallery</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/jpgv/gallery</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://royalclassgroup.com/jpgv/sinotruk-cimc</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 </urlset>
