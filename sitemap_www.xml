@@ -7,17 +7,12 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.royalclassgroup.com/</loc>
+  <loc>http://www.royalclassgroup.com</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.royalclassgroup.com/company</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/company/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -48,11 +43,6 @@
 </url>
 <url>
   <loc>http://www.royalclassgroup.com/contact</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/contact/</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
