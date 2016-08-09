@@ -12,11 +12,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.royalclassgroup.com/company</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://www.royalclassgroup.com/rcp</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
@@ -45,30 +40,5 @@
   <loc>http://www.royalclassgroup.com/contact</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/rcp/gallery</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/rct/gallery</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/rcd/gallery</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/jpgv/gallery</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.royalclassgroup.com/jpgv/sinotruk-cimc</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
 </url>
 </urlset>
