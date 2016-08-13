@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/company' => 'pages#company', as: :company
   get '/contact' => 'pages#contact', as: :contact
   get '/rcf' => 'pages#rcf', as: :rcf
+  get '/rcf/gallery' => 'pages#rcf_gallery', as: :rcf_gallery
   get '/rct' => 'pages#rct', as: :rct
   get '/rct/gallery' => 'pages#rct_gallery', as: :rct_gallery
   get '/rcp' => 'pages#rcp', as: :rcp

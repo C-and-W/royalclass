@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def rcf
   end
 
+  def rcf_gallery
+  end
+
   def rct
   end
 
