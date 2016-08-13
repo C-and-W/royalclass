@@ -2,6 +2,9 @@
 <html>
 <head>
   <%= metamagic %>
+  <% if current_page?(rcf_gallery_path) || current_page?(rct_gallery_path) || current_page?(rcd_gallery_path) || current_page?(rcp_gallery_path) || current_page?(jpgv_sinotruk_path) || current_page?(jpgv_gallery_path) %>
+    <meta name="robots" content="noindex">
+  <% end %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
