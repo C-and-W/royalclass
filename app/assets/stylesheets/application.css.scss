@@ -739,12 +739,13 @@ font-size: 22px;
     rgba(64, 64, 64, 0.7)
   ),
   url(https://s3.amazonaws.com/royalclass/people-show-chairs-gym-copy-min.jpg);
-  -ms-background-size: 125%;
-  -o-background-size: 125%;
-  -moz-background-size: 125%;
-  -webkit-background-size: 125%;
-  background-size: 125%;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-position: right top;
+  background-repeat: no-repeat;
 }
 
 /**** END OF RCF ****/
