@@ -518,23 +518,7 @@ body{
   float: right;
   margin-right: 16vw;
 }
-.timeline-panel:hover{
-  background-color:#595959!important;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-.timeline-panel:hover .timeline-heading{
-  display:none;
-}
-.timeline-heading1{
-  display:none;
-}
-.timeline-panel:hover .timeline-heading1{
-  display: block;
-}
+
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
@@ -549,7 +533,7 @@ body{
   right: auto;
 }
 
-.timeline-title {
+.timeline-titlel, .timeline-title {
   margin-top: 0;
   color: inherit;
   float:right;
@@ -557,8 +541,14 @@ body{
   font-size: 22px;
   letter-spacing: 0px;
   font-weight: 400;
-
 }
+.timeline-titlel, .timeline-titler{
+  display: block;
+}
+.timeline-title{
+  display: none;
+}
+
 .timeline-titled {
   margin-top: 0;
   margin-left: 100px;
